@@ -1,5 +1,5 @@
-import body1 from "./assets/Body1.png";
-import body2 from "./assets/Body2.png";
+import Body1 from "./assets/Body1.png";
+import Body2 from "./assets/Body2.png";
 
 const DonationSection = () => {
   return (
@@ -41,7 +41,7 @@ const DonationSection = () => {
 
             {/* Left Phone: Payment Methods (Peeche wala - Bottom-Left align) */}
             <img
-              src={body1} // Apni left phone image ka sahi path yahan likhein
+              src={Body1} // Apni left phone image ka sahi path yahan likhein
               alt="Payment Methods Screen"
               className="
             absolute z-10
@@ -53,7 +53,7 @@ const DonationSection = () => {
 
             {/* Right Phone: Thank You & Heart (Aage wala - Upper-Right align) */}
             <img
-              src={body2} // Apni right phone image ka sahi path yahan likhein
+              src={Body2} // Apni right phone image ka sahi path yahan likhein
               alt="Thank You Screen"
               className="
             absolute z-20

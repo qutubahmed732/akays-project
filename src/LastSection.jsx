@@ -1,5 +1,5 @@
-import body3 from "./assets/Body3.png";
-import body4 from "./assets/Body4.png";
+import Body3 from "./assets/Body3.png";
+import Body4 from "./assets/Body4.png";
 import { SiGoogleplay } from "react-icons/si";
 
 const LastSection = () => {
@@ -67,7 +67,7 @@ const LastSection = () => {
 
             {/* Left Phone: Payment Methods (Peeche wala - Bottom-Left align) */}
             <img
-              src={body3} // Apni left phone image ka sahi path yahan likhein
+              src={Body3} // Apni left phone image ka sahi path yahan likhein
               alt="Payment Methods Screen"
               className="
             absolute z-10
@@ -79,7 +79,7 @@ const LastSection = () => {
 
             {/* Right Phone: Thank You & Heart (Aage wala - Upper-Right align) */}
             <img
-              src={body4} // Apni right phone image ka sahi path yahan likhein
+              src={Body4} // Apni right phone image ka sahi path yahan likhein
               alt="Thank You Screen"
               className="
             absolute z-20
